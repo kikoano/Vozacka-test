@@ -1,4 +1,4 @@
-function injectScript(src) {
+﻿function injectScript(src) {
     return new Promise((resolve, reject) => {
         const script = document.createElement('script');
         script.async = true;
@@ -85,7 +85,7 @@ function start() {
         if($(this).is(":checkbox")) {
             $(this).click(function () {
                 if($(this).parent().parent().find("img:hidden").length)
-                    $("#answer").text("?????");
+                    $("#answer").text("Точно");
                 else {
                     $(this).prop('checked', false);
                     $("#answer").text($("#rpQuestions_ctl" + pad(currentQuestion, 2) + "_phColumn").find("img:hidden").parent().find("span").text());
