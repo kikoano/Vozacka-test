@@ -1,6 +1,6 @@
 var numQustions;
 var currentQuestion;
-var category = "A";
+var category = "B";
 
 function pad(num, size) {
     var s = num + "";

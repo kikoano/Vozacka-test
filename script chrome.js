@@ -20,7 +20,7 @@ injectScript("https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js")
 
 var numQustions;
 var currentQuestion;
-var category = "A";
+var category = "B";
 
 function pad(num, size) {
     var s = num + "";
